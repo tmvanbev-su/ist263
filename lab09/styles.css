@@ -15,9 +15,6 @@ nav {
     background-color: #26B24C;
     padding: 10px;
     margin-bottom: 30px;
-    @media only screen and (min-width: 601px) {
-        .small {display: none;}
-    }
 }
 
 nav a{
@@ -28,3 +25,9 @@ nav a:hover {
     background-color: #FFFFFF;
 }
 
+@media and only screen (max-width:600px) {
+    nav a{
+        display: block;
+    }
+    .pipe {display: none;}
+}
