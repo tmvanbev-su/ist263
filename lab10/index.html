@@ -11,6 +11,13 @@
             .quote {float: right;}
             .img1 {float: left; margin-right: 20px;}
             .img1 {max-width: 100%;}
+            #skip-to-content {
+            position: absolute; 
+            left: -999px;  
+            background-color: white;
+            border: 1px solid gray;
+            }
+            #skip-to-content:focus {position: absolute; left: 10px;}
         </style>
     </head>
 
@@ -22,12 +29,15 @@
             <span class="pipe">|</span> 
             <a href="contact.html">Contact</a>
         </nav>
+
+        <a id="skip-to-content" href="#content">Skip to Content</a>
         <header>
             <h1>Tyler VanBeveren's Biography</h1>
         </header>
 
         <img src="../images/my-image.png" class="img1" alt="My Profile Image">
 
+        <a id="content"></a>
         <main>
             <p>
             Hello! My name is Tyler VanBeveren and I am currently a senior at Syracuse University. I am majoring in <strong>Information Management & Technology</strong> with an interest in project management and digital strategy. I have been placed on the Dean’s List for my respective college of the School of Information Studies three times during my academic career.

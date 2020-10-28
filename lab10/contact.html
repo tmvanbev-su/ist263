@@ -14,10 +14,17 @@
             .box2 {flex-wrap: wrap;}
             .article1, .article2, .article3, .article4 {margin: 10px;}
             .article1 {flex: 1;}
-            .article2 {flex: 1; color: #94E4FE}
+            .article2 {flex: 1;}
             .article2 {float: left;}
             .article3 {flex: 1; order: 2;}    
-            .article4 {flex: 1; order: 1;}      
+            .article4 {flex: 1; order: 1;}   
+            #skip-to-content {
+            position: absolute; 
+            left: -999px; 
+            background-color: white;
+            border: 1px solid gray;
+            }
+            #skip-to-content:focus {position: absolute; left: 10px;}   
         </style>
     </head>
 
@@ -29,7 +36,10 @@
             <span class="pipe">|</span>
             <a href="contact.html">Contact</a>
         </nav>
+        <a id="skip-to-content" href="#content">Skip to Content</a>
         <h1>Contact</h1>
+
+        <a id="content"></a>
         <div class="box1">
             <div class="article1">
                 <p>Tyler VanBeveren </p>
