@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 
 <html lang="en">
+    
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1">
         <title>Your Favorite Music - Pocket Music</title>
         <link rel="stylesheet" href="project_styles.css">
         <style>
@@ -28,6 +30,9 @@
             .article1 {
                 float: right;
             }
+            .img1, .img2 {
+                max-width: 100%;
+            }
            
         </style>
     </head>
@@ -35,9 +40,9 @@
     <body>
         <nav>
             <a href="hidden-gems.html">Hidden Gems</a>
-            |
+            <span class="pipe">|</span>
             <a href="goat-albums.html">GOAT Albums</a>
-            |
+            <span class="pipe">|</span>
             <a href="fav-music.html">Your Favorite Music</a>
         </nav>
 
@@ -55,7 +60,7 @@
 
         <div class="box2">
             <article class="article1">
-                <img height="300" width="400" src="site-media/form-music.jpg" class="img2" alt="guy listening to music in library">
+                <img height="300" width="400" src="site-media/form-music.jpg" class="img2" alt="">
             </article>
             <article class="article2">
                 <form action="mailto:tmvanbev@syr.edu" method="post">

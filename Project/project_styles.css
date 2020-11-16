@@ -25,4 +25,9 @@ nav a:hover {
     color: #FFFFFF;
 }
 
-
+@media only screen and (max-width:600px) {
+    nav a {
+        display: block;
+    }
+    .pipe {display: none;}
+}
