@@ -8,6 +8,21 @@
         <title>Hidden Gem Albums - Pocket Music</title>
         <link rel="stylesheet" href="project_styles.css">
         <style>
+            #img_container {
+                position: relative;
+                display: inline-block;
+                text-align: center;
+            }
+            .logo {
+                position: absolute;
+                width: 100px;
+                height: 30px;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+            }
             .img1 {
                 width: 100%;
             }
@@ -49,8 +64,10 @@
             <a href="fav-music.html">Your Favorite Music</a>
         </nav>
 
-        <img src="site-media/banner-image.jpg" class="img1" alt="people at concert with logo">
-       
+        <div id="img_container">
+            <img src="site-media/banner-image.jpg" class="img1" alt="people at concert with logo">
+            <img src="site-media/pocket-music-logo.png" class="logo" alt="pocket music">
+        </div>
       
         <h1>Hidden Gem Albums</h1>
 
