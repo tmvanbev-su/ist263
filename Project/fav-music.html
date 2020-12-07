@@ -42,6 +42,11 @@
             #skip-to-content:focus {position: absolute; left: 10px;}   
             .pipe {color: #D4E3FF}
         </style>
+        <script>
+            function CompletedForm () {
+                document.getElementById("complete").innerHTML = "Thank you for your submission!";
+            }
+        </script>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     </head>
 
@@ -88,7 +93,8 @@
                     <textarea id="music" name="message" rows="15" cols="30">
                         Type Here!!!
                     </textarea><br>
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" onclick="CompletedForm">
+                    <div id="complete"></div>
                 </form>
             </article>
         </div>
