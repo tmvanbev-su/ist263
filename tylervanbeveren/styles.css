@@ -1,0 +1,34 @@
+h1, h2 {
+    color: #D7D7D7;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #094402; 
+    color: #B1DE8C;
+}
+
+link {
+    color: #FFFFFF;
+}
+
+nav {
+    background-color: #CDE9B5;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #094402; 
+}
+
+nav a:hover {
+    background-color: #FFFFFF;
+}
+
+@media only screen and (max-width:600px) {
+    nav a {
+        display: block;
+    }
+    .pipe {display: none;}
+}
